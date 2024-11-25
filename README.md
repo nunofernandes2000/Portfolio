@@ -48,6 +48,6 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Nuno Fernandes - [your-email@example.com](mailto:your-email@example.com)
+Nuno Fernandes - [nfernandes.techcomp@gmail.com](mailto:nfernandes.techcomp@gmail.com)
 
-Project Link: [https://github.com/your-username/portfolio](https://github.com/your-username/portfolio)
+Project Link: [https://github.com/nunofernandes2000/portfolio](https://github.com/nunofernandes2000/portfolio)
