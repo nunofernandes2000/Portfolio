@@ -4,11 +4,11 @@ import { ProjectCard } from '../components/ProjectCard';
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with Next.js, TypeScript, and Stripe integration",
+      title: "Paint",
+      description: "Paint is a drawing app that lets you create art with various tools, figures and colors",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600",
-      github: "https://github.com/yourusername/ecommerce",
-      tags: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"]
+      github: "https://github.com/nunofernandes2000/Paint",
+      tags: ["C", "FreeGlut", "OpenGL"]
     },
     {
       title: "AI Chat Application",

@@ -2,10 +2,10 @@ import React from 'react';
 
 export function TechStack() {
   const technologies = [
-    { category: "Frontend", skills: ["React", "TypeScript", "Next.js", "Tailwind CSS"] },
-    { category: "Backend", skills: ["Node.js", "Express", "PostgreSQL", "MongoDB"] },
+    { category: "Frontend", skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "PHP", "C", "JAVA"] },
+    { category: "Backend", skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "MySQL", "SQLServer"] },
     { category: "DevOps", skills: ["Docker", "AWS", "CI/CD", "Git"] },
-    { category: "Tools", skills: ["VS Code", "Postman", "Figma", "Jest"] }
+    { category: "Tools", skills: ["VS Code", "Postman", "Figma", "Jest", "Clion"] }
   ];
 
   return (

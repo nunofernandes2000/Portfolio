@@ -24,7 +24,7 @@ Here are some of the key projects included in this portfolio:
 To get a local copy up and running, follow these simple steps:
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/nunofernandes2000/portfolio.git
     ```
 2. Navigate to the project directory:
     ```sh
