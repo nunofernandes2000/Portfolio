@@ -40,8 +40,7 @@ export function Home() {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <img src={myPhoto} alt="Nuno Fernandes" className="w-32 h-32 rounded-full object-cover" />
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate software developer with 5+ years of experience in building scalable web applications.
-                I specialize in JavaScript/TypeScript ecosystem, with expertise in React, Node.js, and cloud technologies.
+                I'm a 24-year-old technology-loving programmer with experience in programming languages ​​such as PHP, JavaScript, C and JAVA. My goal is to continue to develop my skills and knowledge in the field of programming, looking for challenges that allow me to grow and contribute to innovative projects. I am always willing to learn new technologies and collaborate in multidisciplinary teams.
                 I love contributing to open-source projects and sharing knowledge with the developer community.
               </p>
             </div>

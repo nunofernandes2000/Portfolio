@@ -1,12 +1,13 @@
 import React from 'react';
 import { ProjectCard } from '../components/ProjectCard';
+import Paintphoto from '../assets/paint.jpeg'; //TODO:Ajustar a foto para conseguir ver no portofolio
 
 export function Projects() {
   const projects = [
     {
       title: "Paint",
       description: "Paint is a drawing app that lets you create art with various tools, figures and colors",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600",
+      image: Paintphoto,
       github: "https://github.com/nunofernandes2000/Paint",
       tags: ["C", "FreeGlut", "OpenGL"]
     },
