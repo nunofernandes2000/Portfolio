@@ -21,7 +21,7 @@ export function Home() {
             <a href="https://github.com/nunofernandes2000" aria-label="GitHub" className="hover:text-blue-400 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/nuno-fernandes-164910283" aria-label="LinkedIn" className="hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/nuno-fernandes-164910238/" aria-label="LinkedIn" className="hover:text-blue-400 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:ticnunofernandes@gmail.com" aria-label="Email" className="hover:text-blue-400 transition-colors">
