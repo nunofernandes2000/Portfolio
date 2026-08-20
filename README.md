@@ -1,10 +1,10 @@
 # Portfólio de Nuno da Costa Fernandes
 
-Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e Full-Stack Developer. A aplicação apresenta o percurso académico e profissional, projetos, competências técnicas, certificações e contactos.
+Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e Full-Stack Developer. A aplicação apresenta o percurso académico e profissional, projetos, competências técnicas, certificações e contactos através de uma interface responsiva com uma linguagem visual inspirada em ferramentas de desenvolvimento.
 
 ## Conteúdo
 
-- **Início**: apresentação, contactos e resumo profissional.
+- **Início**: apresentação visual, resumo profissional, indicadores de percurso, áreas de foco, competências e contactos.
 - **Percurso**: experiência profissional, formação académica, Erasmus+, certificação CCNA e distinções.
 - **Projetos**: projetos desenvolvidos com Java, Spring Boot, React, Android, C/C++, OpenGL e redes TCP/IP.
 - **CV**: visualização online e descarregamento do CV em PDF.
@@ -25,6 +25,17 @@ Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia
 - Tailwind CSS
 - Lucide React
 - Java, Spring Boot, React Native, Node.js, PHP, Python e C/C++
+
+## Experiência da Home
+
+A página inicial foi pensada como uma apresentação profissional imediata:
+
+- Hero com posicionamento profissional, localização e estado de disponibilidade.
+- Painel visual de identidade com fotografia, base geográfica e stack principal.
+- Ações para visualizar e descarregar o CV.
+- Ligações diretas para email, telefone, LinkedIn e GitHub.
+- Destaques do percurso e áreas técnicas de interesse.
+- Secção de ferramentas e chamada para explorar os projetos.
 
 ## CV
 
@@ -76,6 +87,7 @@ src/
     components/       Componentes reutilizáveis
     pages/            Páginas do portfólio
     assets/           Imagens utilizadas na aplicação
+        projects/       Imagens locais dos cartões de projetos
 public/cv/          CV em PDF servido diretamente pelo Vite
 ```
 
