@@ -11,7 +11,7 @@ export function Projects() {
       title: "Pac-Man 2D",
       description: "Recriação do arcade Pac-Man em 2D, com desenho de primitivas em OpenGL, controlo de inputs e lógica de colisão em tempo real.",
       image: pacmanImage,
-      links: [{ label: "Ver código", href: "https://github.com/nunofernandes2000/Paint" }],
+      links: [{ label: "Ver código", href: "https://github.com/nunofernandes2000/PacMan-OPENGL-FreeGLut" }],
       tags: ["C/C++", "OpenGL", "FreeGLUT"]
     },
     {
