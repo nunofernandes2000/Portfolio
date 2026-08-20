@@ -1,10 +1,11 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Achievements } from './pages/Achievements';
 import { Projects } from './pages/Projects';
 
 function App() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <Router>
       <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
@@ -26,7 +27,7 @@ function App() {
 
         {/* Footer */}
         <footer className="py-8 text-center text-gray-400">
-          <p>© 2024 Nuno Fernandes. All rights reserved.</p>
+          <p>© 2024-{currentYear} Nuno Fernandes. All rights reserved.</p>
         </footer>
       </div>
     </Router>
