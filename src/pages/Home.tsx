@@ -80,11 +80,7 @@ export function Home() {
                 <span>01</span>
               </div>
               <div className="p-3">
-                <div className="relative overflow-hidden rounded-lg bg-blue-400">
-                  <img src={myPhoto} alt="Nuno da Costa Fernandes" className="aspect-[4/5] w-full object-cover object-center saturate-[1.45] contrast-[1.18] brightness-[1.04] sepia-[0.08]" />
-                  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(rgba(15,23,42,0.24)_1px,transparent_1px)] bg-[size:5px_5px] mix-blend-multiply opacity-35" />
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-blue-500/15 via-transparent to-emerald-300/20 mix-blend-screen" />
-                </div>
+                <img src={myPhoto} alt="Nuno da Costa Fernandes" className="aspect-[4/5] w-full object-cover object-center grayscale-[15%]" />
               </div>
               <div className="grid grid-cols-2 gap-3 border-t border-slate-800 p-3 text-sm">
                 <div>
