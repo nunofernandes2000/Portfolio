@@ -36,7 +36,7 @@ export function ProjectCard({ title, description, image, github, tags }: Project
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
             >
               <Github className="w-5 h-5" />
-              <span>View Code</span>
+              <span>Ver código</span>
             </a>
           </div>
         )}

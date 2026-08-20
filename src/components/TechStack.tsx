@@ -1,14 +1,14 @@
 export function TechStack() {
   const technologies = [
-    { category: "Languages", skills: ["JavaScript", "TypeScript", "PHP", "Python", "C/C++", "Java", "SQL"] },
-    { category: "Frameworks", skills: ["React", "React Native", "Node.js", "Spring Boot", "Angular", "Expo", "OpenGL"] },
-    { category: "Tools & Concepts", skills: ["Git", "GitHub", "Docker", "Linux", "REST APIs", "TCP/IP", "SQL Server"] },
-    { category: "Databases", skills: ["MySQL", "PostgreSQL", "SQLite", "MongoDB"] }
+    { category: "Linguagens", skills: ["JavaScript", "TypeScript", "Java", "PHP", "Python", "C/C++", "SQL"] },
+    { category: "Frameworks e tecnologias", skills: ["React", "React Native", "Node.js", "Spring Boot", "Spring Security", "JPA/Hibernate", "Laravel", "Expo", "Android SDK", "OpenGL"] },
+    { category: "Conceitos e ferramentas", skills: ["Arquitetura de software", "Programação funcional", "Git", "GitHub", "Docker", "Linux", "Sockets TCP/IP", "REST APIs"] },
+    { category: "Bases de dados e idiomas", skills: ["MySQL", "PostgreSQL", "SQLite", "Português (Nativo)", "Inglês (Profissional)", "Espanhol (Básico)", "Francês (Elementar)"] }
   ];
 
   return (
     <div className="space-y-6">
-      <h3 className="text-2xl font-bold mb-4">Tech Stack</h3>
+      <h3 className="text-2xl font-bold mb-4">Competências técnicas</h3>
       <div className="grid md:grid-cols-2 gap-8">
         {technologies.map((tech, index) => (
           <div key={index}>
