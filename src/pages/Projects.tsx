@@ -1,37 +1,41 @@
 import { ProjectCard } from '../components/ProjectCard';
-import Paintphoto from '../assets/paint.jpeg'; //TODO:Ajustar a foto para conseguir ver no portofolio
+import checkpointsImage from '../assets/projects/checkpoints.jpg';
+import pacmanImage from '../assets/projects/pacman.jpg';
+import schoolGestImage from '../assets/projects/school-gest.jpg';
+import guessGameImage from '../assets/projects/guessgame.jpg';
+import censosImage from '../assets/projects/censos.jpg';
 
 export function Projects() {
   const projects = [
     {
       title: "Pac-Man 2D",
       description: "Recriação do arcade Pac-Man em 2D, com desenho de primitivas em OpenGL, controlo de inputs e lógica de colisão em tempo real.",
-      image: Paintphoto,
+      image: pacmanImage,
       github: "https://github.com/nunofernandes2000/Paint",
       tags: ["C/C++", "OpenGL", "FreeGLUT"]
     },
     {
       title: "Sistema de Gestão por Checkpoints",
       description: "Plataforma web full-stack com arquitetura em camadas, testes automatizados e dashboards interativos em React para monitorização letiva e avaliação.",
-      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?auto=format&fit=crop&q=80&w=1600",
+      image: checkpointsImage,
       tags: ["Java", "Spring Boot", "React", "JPA", "REST"]
     },
     {
       title: "Android School Gest",
       description: "Aplicação móvel para administração escolar, com gestão de alunos, turmas e disciplinas e persistência de dados numa base SQLite local.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1600",
+      image: schoolGestImage,
       tags: ["Java", "Android Studio", "SQLite", "UI/UX"]
     },
     {
       title: "SOD GuessGame",
       description: "Sistema cliente-servidor distribuído, com sockets TCP/IP, tratamento concorrente de ligações e sincronização de estados multijogador.",
-      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1600",
+      image: guessGameImage,
       tags: ["Java", "Sockets", "TCP/IP", "Multithreading"]
     },
     {
       title: "Censos App Android",
       description: "Aplicação nativa Android para recolha, validação e tratamento estatístico de dados de inquéritos censitários.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1600",
+      image: censosImage,
       tags: ["Java", "Android Studio", "SQLite", "UI/UX"]
     }
   ];
