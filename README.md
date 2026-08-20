@@ -31,9 +31,11 @@ Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia
 A página inicial foi pensada como uma apresentação profissional imediata:
 
 - Hero com posicionamento profissional, localização e estado de disponibilidade.
+- Título principal com animação de escrita e cursor visual, respeitando preferências de movimento reduzido.
 - Painel visual de identidade com fotografia, base geográfica e stack principal.
 - Ações para visualizar e descarregar o CV.
 - Ligações diretas para email, telefone, LinkedIn e GitHub.
+- Navbar fixa com marca pessoal, indicação da página ativa e acesso rápido ao CV.
 - Destaques do percurso e áreas técnicas de interesse.
 - Secção de ferramentas e chamada para explorar os projetos.
 
