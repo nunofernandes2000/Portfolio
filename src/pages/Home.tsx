@@ -11,8 +11,11 @@ import {
   Terminal,
   UserRound
 } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { TechStack } from '../components/TechStack';
 import myPhoto from '../assets/my-photo.jpeg';
+
+const heroHeadline = 'Construo software com curiosidade e intenção.';
 
 const highlights = [
   { value: '2026', label: 'Licenciatura prevista' },
@@ -27,6 +30,29 @@ const focusAreas = [
 ];
 
 export function Home() {
+  const [typedHeadline, setTypedHeadline] = useState('');
+
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReducedMotion) {
+      setTypedHeadline(heroHeadline);
+      return;
+    }
+
+    let characterIndex = 0;
+    const typingTimer = window.setInterval(() => {
+      characterIndex += 1;
+      setTypedHeadline(heroHeadline.slice(0, characterIndex));
+
+      if (characterIndex === heroHeadline.length) {
+        window.clearInterval(typingTimer);
+      }
+    }, 55);
+
+    return () => window.clearInterval(typingTimer);
+  }, []);
+
   return (
     <div className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.06)_1px,transparent_1px)] bg-[size:48px_48px] [mask-image:linear-gradient(to_bottom,black,transparent_75%)]" />
@@ -41,7 +67,18 @@ export function Home() {
               <Terminal className="h-4 w-4" /> Engenharia Informática · Full-Stack
             </p>
             <h1 className="max-w-4xl text-5xl font-bold leading-[1.05] tracking-tight text-white md:text-7xl">
-              Construo software com <span className="text-blue-400">curiosidade</span> e intenção.
+              <span aria-label={heroHeadline}>
+                {typedHeadline.includes('curiosidade') ? (
+                  <>
+                    {typedHeadline.split('curiosidade')[0]}
+                    <span className="text-blue-400">curiosidade</span>
+                    {typedHeadline.split('curiosidade')[1]}
+                  </>
+                ) : (
+                  typedHeadline
+                )}
+                <span aria-hidden="true" className="ml-1 inline-block h-[0.9em] w-1 animate-pulse bg-blue-400 align-[-0.08em]" />
+              </span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-relaxed text-slate-300 md:text-xl">
               Sou Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e developer focado em transformar problemas reais em experiências digitais claras, robustas e úteis.
