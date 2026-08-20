@@ -1,53 +1,90 @@
-# Portfolio
+# Portfólio de Nuno da Costa Fernandes
 
-Welcome to my Portfolio project! This repository showcases my work and projects. Below you will find an overview of the contents and instructions on how to navigate and use the project.
+Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e Full-Stack Developer. A aplicação apresenta o percurso académico e profissional, projetos, competências técnicas, certificações e contactos.
 
-## Table of Contents
-- [About](#about)
-- [Projects](#projects)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Conteúdo
 
-## About
-This portfolio contains a collection of my personal and professional projects. It serves as a demonstration of my skills and experiences in various areas of software development.
+- **Início**: apresentação, contactos e resumo profissional.
+- **Percurso**: experiência profissional, formação académica, Erasmus+, certificação CCNA e distinções.
+- **Projetos**: projetos desenvolvidos com Java, Spring Boot, React, Android, C/C++, OpenGL e redes TCP/IP.
+- **CV**: visualização online e descarregamento do CV em PDF.
 
-## Projects
-Here are some of the key projects included in this portfolio:
-- **Project 1**: Description of project 1.
-- **Project 2**: Description of project 2.
-- **Project 3**: Description of project 3.
+## Projetos apresentados
 
-## Installation
-To get a local copy up and running, follow these simple steps:
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/nunofernandes2000/portfolio.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd portfolio
-    ```
+- Sistema de Gestão por Checkpoints
+- Pac-Man 2D
+- Android School Gest
+- SOD GuessGame
+- Censos App Android
 
-## Usage
-Instructions on how to use the project:
-1. Open the project in your preferred code editor.
-2. Follow the specific instructions provided in each project directory.
+## Tecnologias
 
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+- React e TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- Lucide React
+- Java, Spring Boot, React Native, Node.js, PHP, Python e C/C++
 
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
+## CV
 
-## Contact
-Nuno Fernandes - [nfernandes.techcomp@gmail.com](mailto:nfernandes.techcomp@gmail.com)
+O CV está disponível em [public/cv/CV_Nuno_2026.pdf](public/cv/CV_Nuno_2026.pdf). Na aplicação, pode ser aberto no navegador através de **Ver CV** ou guardado localmente através de **Descarregar CV**.
 
-Project Link: [https://github.com/nunofernandes2000/portfolio](https://github.com/nunofernandes2000/portfolio)
+## Requisitos
+
+- Node.js 18 ou superior
+- npm
+
+## Instalação
+
+```bash
+git clone https://github.com/nunofernandes2000/Portfolio.git
+cd Portfolio
+npm install
+```
+
+## Desenvolvimento
+
+Iniciar o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Criar uma build de produção:
+
+```bash
+npm run build
+```
+
+Pré-visualizar a build de produção:
+
+```bash
+npm run preview
+```
+
+Verificar problemas de lint:
+
+```bash
+npm run lint
+```
+
+## Estrutura principal
+
+```text
+src/
+    components/       Componentes reutilizáveis
+    pages/            Páginas do portfólio
+    assets/           Imagens utilizadas na aplicação
+public/cv/          CV em PDF servido diretamente pelo Vite
+```
+
+## Contacto
+
+- Email: [ticnunofernandes@gmail.com](mailto:ticnunofernandes@gmail.com)
+- LinkedIn: [nuno-fernandes-164910238](https://www.linkedin.com/in/nuno-fernandes-164910238/)
+- GitHub: [nunofernandes2000](https://github.com/nunofernandes2000)
+
+## Licença
+
+Consulte [LICENSE.md](LICENSE.md).
