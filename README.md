@@ -88,3 +88,7 @@ public/cv/          CV em PDF servido diretamente pelo Vite
 ## Licença
 
 Consulte [LICENSE.md](LICENSE.md).
+
+## Imagens dos projetos
+
+As imagens editoriais dos cartões foram obtidas através do [Unsplash](https://unsplash.com/), verificadas e guardadas localmente em `src/assets/projects/` para manter a aplicação funcional sem depender de pedidos externos durante a navegação.
