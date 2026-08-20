@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Phone, User } from 'lucide-react';
+import { Download, FileText, Github, Linkedin, Mail, MapPin, Phone, User } from 'lucide-react';
 import { TechStack } from '../components/TechStack';
 import myPhoto from '../assets/my-photo.jpeg'; // Ajuste o caminho conforme necessário
 
@@ -32,6 +32,25 @@ export function Home() {
             </a>
           </div>
           <p className="text-sm text-gray-400">ticnunofernandes@gmail.com · +351 961 448 430</p>
+          <div className="flex flex-wrap justify-center gap-3 mt-6">
+            <a
+              href="/cv/CV_Nuno_2026.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-400 transition-colors"
+            >
+              <FileText className="w-4 h-4" />
+              Ver CV
+            </a>
+            <a
+              href="/cv/CV_Nuno_2026.pdf"
+              download="CV_Nuno_2026.pdf"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-gray-600 text-gray-200 hover:border-blue-400 hover:text-blue-400 transition-colors"
+            >
+              <Download className="w-4 h-4" />
+              Descarregar CV
+            </a>
+          </div>
         </div>
       </header>
 
