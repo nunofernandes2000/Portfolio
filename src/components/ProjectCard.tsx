@@ -1,14 +1,19 @@
-import { Github } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
+
+interface ProjectLink {
+  label: string;
+  href: string;
+}
 
 interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  github?: string;
+  links: ProjectLink[];
   tags: string[];
 }
 
-export function ProjectCard({ title, description, image, github, tags }: ProjectCardProps) {
+export function ProjectCard({ title, description, image, links, tags }: ProjectCardProps) {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden transition-transform hover:-translate-y-2">
       <img 
@@ -29,17 +34,21 @@ export function ProjectCard({ title, description, image, github, tags }: Project
             </span>
           ))}
         </div>
-        {github && (
-          <div className="flex gap-4">
+        <div className="flex flex-wrap gap-3">
+          {links.map((link) => (
             <a
-              href={github}
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+              key={link.href}
+              href={link.href}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-md bg-blue-500/10 px-3 py-2 text-sm font-medium text-blue-300 transition-colors hover:bg-blue-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
-              <Github className="w-5 h-5" />
-              <span>Ver código</span>
+              <Github className="h-4 w-4" />
+              <span>{link.label}</span>
+              <ExternalLink className="h-3.5 w-3.5" />
             </a>
-          </div>
-        )}
+          ))}
+        </div>
       </div>
     </div>
   );
