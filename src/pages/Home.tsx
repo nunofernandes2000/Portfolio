@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Linkedin, Mail, User } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, User } from 'lucide-react';
 import { TechStack } from '../components/TechStack';
 import myPhoto from '../assets/my-photo.jpeg'; // Ajuste o caminho conforme necessário
 
@@ -12,17 +11,20 @@ export function Home() {
           <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
             Nuno Fernandes
           </h1>
-          <p className="text-xl text-gray-300 mb-8">
-            Full Stack Developer | Open Source Enthusiast | Computer Science Student
+          <p className="text-xl text-gray-300 mb-4">
+            Full Stack Developer &amp; IT Support Technician
+          </p>
+          <p className="text-gray-400 mb-8 flex items-center justify-center gap-2">
+            <MapPin className="w-4 h-4" /> Alter do Chao, Portugal
           </p>
           <div className="flex justify-center gap-4">
-            <a href="https://github.com/yourusername" className="hover:text-blue-400 transition-colors">
+            <a href="https://github.com/nunofernandes2000" aria-label="GitHub" className="hover:text-blue-400 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" className="hover:text-blue-400 transition-colors">
+            <a href="https://linkedin.com/in/nuno-fernandes-164910283" aria-label="LinkedIn" className="hover:text-blue-400 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors">
+            <a href="mailto:ticnunofernandes@gmail.com" aria-label="Email" className="hover:text-blue-400 transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -40,8 +42,7 @@ export function Home() {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <img src={myPhoto} alt="Nuno Fernandes" className="w-32 h-32 rounded-full object-cover" />
               <p className="text-gray-300 leading-relaxed">
-                I'm a 24-year-old technology-loving programmer with experience in programming languages ​​such as PHP, JavaScript, C and JAVA. My goal is to continue to develop my skills and knowledge in the field of programming, looking for challenges that allow me to grow and contribute to innovative projects. I am always willing to learn new technologies and collaborate in multidisciplinary teams.
-                I love contributing to open-source projects and sharing knowledge with the developer community.
+                Full Stack Developer with a completed CTeSP in Web and Mobile Application Development and professional experience in IT support, network administration, hardware diagnosis, and internal web applications. I work with JavaScript, TypeScript, PHP, C/C++, Java, React, Node.js, Spring Boot, and SQL, and I enjoy building practical software while continuing to grow technically.
               </p>
             </div>
             <TechStack />

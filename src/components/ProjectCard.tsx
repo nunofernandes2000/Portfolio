@@ -1,11 +1,10 @@
-import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  github: string;
+  github?: string;
   tags: string[];
 }
 
@@ -30,15 +29,17 @@ export function ProjectCard({ title, description, image, github, tags }: Project
             </span>
           ))}
         </div>
-        <div className="flex gap-4">
-          <a 
-            href={github}
-            className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-          >
-            <Github className="w-5 h-5" />
-            <span>View Code</span>
-          </a>
-        </div>
+        {github && (
+          <div className="flex gap-4">
+            <a
+              href={github}
+              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+            >
+              <Github className="w-5 h-5" />
+              <span>View Code</span>
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );
