@@ -12,7 +12,7 @@ Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia
 ## Projetos apresentados
 
 - Sistema de Gestão por Checkpoints
-- Pac-Man 2D
+- Pac-Man 3D
 - Android School Gest
 - SOD GuessGame
 - Censos App Android

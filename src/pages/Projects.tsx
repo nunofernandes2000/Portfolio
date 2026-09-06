@@ -8,11 +8,11 @@ import censosImage from '../assets/projects/censos.jpg';
 export function Projects() {
   const projects = [
     {
-      title: "Pac-Man 2D",
-      description: "Recriação do arcade Pac-Man em 2D, com desenho de primitivas em OpenGL, controlo de inputs e lógica de colisão em tempo real.",
+      title: "Pac-Man 3D",
+      description: "Jogo inspirado no Pac-Man desenvolvido em ambiente 3D com OpenGL e FreeGLUT, incluindo mapa carregado a partir de ficheiro, movimento do jogador, diferentes comportamentos dos fantasmas, sistema de pontuação e controlo da câmara.",
       image: pacmanImage,
       links: [{ label: "Ver código", href: "https://github.com/nunofernandes2000/PacMan-OPENGL-FreeGLut" }],
-      tags: ["C/C++", "OpenGL", "FreeGLUT"]
+      tags: ["C", "OpenGL", "FreeGLUT"]
     },
     {
       title: "Sistema de Gestão por Checkpoints",

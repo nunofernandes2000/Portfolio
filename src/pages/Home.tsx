@@ -13,7 +13,6 @@ import {
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { TechStack } from '../components/TechStack';
-import myPhoto from '../assets/my-photo.jpeg';
 
 const heroHeadline = 'Construo software com curiosidade e intenção.';
 
@@ -117,7 +116,7 @@ export function Home() {
                 <span>01</span>
               </div>
               <div className="p-3">
-                <img src={myPhoto} alt="Nuno da Costa Fernandes" className="aspect-[4/5] w-full object-cover object-center grayscale-[15%]" />
+                <img src="/foto.png" alt="Nuno da Costa Fernandes" className="aspect-[4/5] w-full object-cover object-center grayscale-[15%]" />
               </div>
               <div className="grid grid-cols-2 gap-3 border-t border-slate-800 p-3 text-sm">
                 <div>
