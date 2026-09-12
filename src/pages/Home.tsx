@@ -17,7 +17,7 @@ import { TechStack } from '../components/TechStack';
 const heroHeadline = 'Construo software com curiosidade e intenção.';
 
 const highlights = [
-  { value: '2026', label: 'Licenciatura prevista' },
+  { value: '2026', label: 'Licenciatura concluída' },
   { value: '3+', label: 'Experiências profissionais' },
   { value: '5', label: 'Projetos em destaque' }
 ];
@@ -80,7 +80,7 @@ export function Home() {
               </span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-relaxed text-slate-300 md:text-xl">
-              Sou Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e developer focado em transformar problemas reais em experiências digitais claras, robustas e úteis.
+              Sou Nuno da Costa Fernandes, licenciado em Engenharia Informática e developer focado em transformar problemas reais em experiências digitais claras, robustas e úteis.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a

@@ -29,8 +29,8 @@ const education = [
     title: 'Licenciatura em Engenharia Informática',
     institution: 'Instituto Politécnico de Portalegre (ESTGD - IPP)',
     place: 'Portalegre, Portugal',
-    period: 'Outubro 2023 - Previsto 2026',
-    description: 'Finalista, com projeto final em curso.'
+    period: 'Outubro 2023 - 2026',
+    description: 'Licenciatura concluída com foco em engenharia de software, desenvolvimento full-stack, sistemas distribuídos e redes.'
   },
   {
     title: 'Erasmus+ Blended Intensive Programme',

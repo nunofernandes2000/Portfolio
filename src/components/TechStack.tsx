@@ -1,7 +1,7 @@
 export function TechStack() {
   const technologies = [
     { category: "Linguagens", skills: ["JavaScript", "TypeScript", "Java", "PHP", "Python", "C/C++", "SQL"] },
-    { category: "Frameworks e tecnologias", skills: ["React", "React Native", "Node.js", "Spring Boot", "Spring Security", "JPA/Hibernate", "Laravel", "Expo", "Android SDK", "OpenGL"] },
+    { category: "Frameworks e tecnologias", skills: ["React", "React Native", "Node.js", "Spring Boot", "Spring Security", "JPA/Hibernate", "Prisma", "Laravel", "Expo", "Android SDK", "OpenGL"] },
     { category: "Conceitos e ferramentas", skills: ["Arquitetura de software", "Programação funcional", "Git", "GitHub", "Docker", "Linux", "Sockets TCP/IP", "REST APIs"] },
     { category: "Bases de dados e idiomas", skills: ["MySQL", "PostgreSQL", "SQLite", "Português (Nativo)", "Inglês (Profissional)", "Espanhol (Básico)", "Francês (Elementar)"] }
   ];

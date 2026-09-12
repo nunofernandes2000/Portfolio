@@ -1,6 +1,6 @@
 # Portfólio de Nuno da Costa Fernandes
 
-Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia Informática e Full-Stack Developer. A aplicação apresenta o percurso académico e profissional, projetos, competências técnicas, certificações e contactos através de uma interface responsiva com uma linguagem visual inspirada em ferramentas de desenvolvimento.
+Portfólio pessoal de Nuno da Costa Fernandes, licenciado em Engenharia Informática e Full-Stack Developer. O portfólio apresenta o percurso académico e profissional, projetos, competências técnicas, certificações e contactos através de uma interface responsiva com uma linguagem visual inspirada em ferramentas de desenvolvimento.
 
 ## Conteúdo
 
@@ -24,7 +24,7 @@ Portfólio pessoal de Nuno da Costa Fernandes, estudante finalista de Engenharia
 - React Router
 - Tailwind CSS
 - Lucide React
-- Java, Spring Boot, React Native, Node.js, PHP, Python e C/C++
+- Java, Spring Boot, React Native, Node.js, Prisma, PHP, Python e C/C++
 
 ## Experiência da Home
 
