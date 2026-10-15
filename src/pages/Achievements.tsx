@@ -27,7 +27,7 @@ const experience = [
 const education = [
   {
     title: 'Licenciatura em Engenharia Informática',
-    institution: 'Instituto Politécnico de Portalegre (ESTGD - IPP)',
+    institution: 'Universidade Politécnica de Portalegre (ESTGD - UPP)',
     place: 'Portalegre, Portugal',
     period: 'Outubro 2023 - Setembro 2026',
     description: 'Licenciatura concluída com foco em engenharia de software, desenvolvimento full-stack, sistemas distribuídos e redes.'
@@ -41,7 +41,7 @@ const education = [
   },
   {
     title: 'CTeSP em Desenvolvimento para a Web e Dispositivos Móveis',
-    institution: 'Instituto Politécnico de Portalegre (ESTGD - IPP)',
+    institution: 'Universidade Politécnica de Portalegre (ESTGD - UPP)',
     place: 'Portalegre, Portugal',
     period: 'Setembro 2021 - Outubro 2023',
     description: 'Formação especializada em desenvolvimento de aplicações web e dispositivos móveis.'
@@ -131,7 +131,7 @@ export function Achievements() {
             </div>
             <div className="mt-5 rounded-lg border border-gray-700 p-6">
               <h3 className="text-lg font-bold">Formação complementar</h3>
-              <p className="mt-3 leading-relaxed text-gray-400">IA Generativa, Cyber Security Incident Response, Boas Práticas de Cibersegurança, Introdução à Blockchain, Técnicas de Desenvolvimento de Software, Princípios de Programação, Fundamentos de Programação e Masterclass YOLO e Visão Computacional (IPP).</p>
+              <p className="mt-3 leading-relaxed text-gray-400">IA Generativa, Cyber Security Incident Response, Boas Práticas de Cibersegurança, Introdução à Blockchain, Técnicas de Desenvolvimento de Software, Princípios de Programação, Fundamentos de Programação e Masterclass YOLO e Visão Computacional (UPP).</p>
             </div>
           </section>
         </div>
