@@ -8,12 +8,13 @@ interface ProjectLink {
 interface ProjectCardProps {
   title: string;
   description: string;
+  highlights?: string[];
   image: string;
   links: ProjectLink[];
   tags: string[];
 }
 
-export function ProjectCard({ title, description, image, links, tags }: ProjectCardProps) {
+export function ProjectCard({ title, description, highlights, image, links, tags }: ProjectCardProps) {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden transition-transform hover:-translate-y-2">
       <img 
@@ -24,6 +25,13 @@ export function ProjectCard({ title, description, image, links, tags }: ProjectC
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{description}</p>
+        {highlights && highlights.length > 0 && (
+          <ul className="mb-4 list-disc space-y-3 pl-5 text-sm leading-relaxed text-gray-400 marker:text-blue-400">
+            {highlights.map((highlight) => (
+              <li key={highlight}>{highlight}</li>
+            ))}
+          </ul>
+        )}
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag, index) => (
             <span 

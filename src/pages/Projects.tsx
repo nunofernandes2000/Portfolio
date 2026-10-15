@@ -4,9 +4,25 @@ import pacmanImage from '../assets/projects/pacman.jpg';
 import schoolGestImage from '../assets/projects/school-gest.jpg';
 import guessGameImage from '../assets/projects/guessgame.jpg';
 import censosImage from '../assets/projects/censos.jpg';
+import mobileDashboardImage from '../assets/projects/mobile-dashboard.svg';
 
 export function Projects() {
   const projects = [
+    {
+      title: "UPP Mobile Dashboard",
+      description: "Plataforma móvel full-stack para gestão académica da UPP, com API REST e arquitetura BFF, integrando dashboards analíticos e operacionais com serviços académicos.",
+      highlights: [
+        "Autenticação OAuth 2.0/OpenID Connect, validação de JWT com assinatura RS256 via JWKS e controlo de acessos por papéis (RBAC).",
+        "Dashboards de auditoria de irregularidades DTP (2025/26 e histórico 2024/25), inquéritos pedagógicos, tickets de suporte, auditoria de contas de docentes e aniversários.",
+        "Ocupação de salas e horários em tempo real, calendário de exames, notificações de unidades curriculares e upload de ficheiros entre web e mobile, com captura pela câmara do smartphone e cache em memória."
+      ],
+      image: mobileDashboardImage,
+      links: [
+        { label: "Backend", href: "https://github.com/nunofernandes2000/mobile-dashboard-backend" },
+        { label: "Frontend", href: "https://github.com/nunofernandes2000/mobile-dashboard-app" }
+      ],
+      tags: ["React Native", "Expo", "Node.js", "Express", "Prisma", "PostgreSQL", "Tailwind CSS", "Docker", "OAuth 2.0"]
+    },
     {
       title: "Pac-Man 3D",
       description: "Jogo inspirado no Pac-Man desenvolvido em ambiente 3D com OpenGL e FreeGLUT, incluindo mapa carregado a partir de ficheiro, movimento do jogador, diferentes comportamentos dos fantasmas, sistema de pontuação e controlo da câmara.",

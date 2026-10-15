@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <circle cx="720" cy="65" r="180" fill="#38bdf8" opacity=".06"/>
+  <text x="55" y="164" fill="#7dd3fc" font-family="sans-serif" font-size="16" letter-spacing="3">GESTÃO ACADÉMICA</text>
+  <text x="55" y="210" fill="#f8fafc" font-family="sans-serif" font-weight="700" font-size="36">UPP Mobile</text>
+  <text x="55" y="254" fill="#f8fafc" font-family="sans-serif" font-weight="700" font-size="36">Dashboard</text>
+  <rect x="501" y="26" width="222" height="348" rx="30" fill="#020617" stroke="#475569" stroke-width="3"/>
+  <rect x="514" y="40" width="196" height="320" rx="20" fill="#0f172a"/>
+  <rect x="578" y="46" width="68" height="8" rx="4" fill="#334155"/>
+  <text x="532" y="91" fill="#f8fafc" font-family="sans-serif" font-weight="700" font-size="18">Dashboard</text>
+  <rect x="532" y="110" width="160" height="60" rx="10" fill="#0c4a6e"/>
+  <path d="M546 153l24-12 24 4 25-22 25 9 32-13" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="532" y="184" width="73" height="48" rx="8" fill="#1e293b"/>
+  <rect x="619" y="184" width="73" height="48" rx="8" fill="#1e293b"/>
+  <text x="545" y="214" fill="#7dd3fc" font-family="sans-serif" font-size="13">Salas</text>
+  <text x="630" y="214" fill="#7dd3fc" font-family="sans-serif" font-size="13">Tickets</text>
+  <rect x="532" y="247" width="160" height="79" rx="8" fill="#1e293b"/>
+  <path d="M547 266h68m-68 16h127m-127 17h95" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+  <rect x="583" y="341" width="58" height="4" rx="2" fill="#475569"/>
+</svg>
